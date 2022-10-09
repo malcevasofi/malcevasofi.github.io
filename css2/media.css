@@ -1,0 +1,124 @@
+@media all and (max-width: 1024px){
+	.img-box{
+		width: 90%;
+		column-count: 3;
+	}
+}
+@media all and (max-width: 768px){
+	.img-box{
+		column-count: 2;
+	}
+	.grid-item-2, .grid-item-3 {
+		display: none;
+	}
+	.grid-item-1 {
+		padding-top: 2vw;
+		width: 100%;
+	  	justify-content: center;
+	}
+	.logo {
+		font-weight: normal;
+		font-family: plain;
+		font-size: 3vw;
+	}
+	.heading{
+		height: 20vw;
+		padding: 0;
+	}
+	h1.heading{
+		font-size: 13vw;
+	}
+	.link-to-the-cat-gallery{
+		height: 50vw;
+	}
+	.grid-item-text{
+		width: 90%;
+	}
+	.grid-item-text-2{
+		height: 5vw;
+	}
+	.about-gallery-img {
+		left: 55vw;
+		height: 35vw;
+	}
+	@keyframes fly-bird {
+		0%  {transform: translate(0, 10vw) rotate(5deg);}
+		10% {transform: translate(0, 10vw) rotate(10deg) scale(1.1);}
+		20% {transform: translate(0, 10vw) rotate(5deg);}
+		30% {transform: translate(0, 10vw) rotate(10deg) scale(1.1);}
+		40% {transform: translate(0, 10vw) rotate(5deg);}
+		50% {transform: translate(0, 10vw) rotate(10deg) scale(1.1);}
+		60% {transform: translate(0, 10vw) rotate(5deg);}
+		70% {transform: translate(0, 10vw) rotate(10deg) scale(1.1);}
+		80% {transform: translate(0, 10vw) rotate(5deg);}
+		90% {transform: translate(0, 10vw) rotate(10deg) scale(1.1);}
+		100%{transform: translate(0, 10vw) rotate(5deg);}
+	}
+	h2.about-gallery {
+		font-size: 5vw;
+	}
+	p.about-gallery {
+		font-size: 4vw;
+		width: 50vw;
+	}
+	.footer-grid-item-2 {
+	  	display: none;
+	}
+	.footer-grid-item-1 {
+		width: calc(50% - 1vw);
+	  	margin-right: 0.5vw;
+	  	margin-left: 0.5vw;
+	  	justify-content: right;
+	}
+	.footer-grid-item-3 {
+		width: calc(50% - 1vw);
+	  	margin-right: 0.5vw;
+	  	margin-left: 0.5vw;
+	  	justify-content: left;
+	}
+	p.about-author, p.copyrights {
+		font-size: 2vw;
+	}
+}@media all and (max-width: 480px){
+	.img-box{
+		column-count: 1;
+	}
+	.heading{
+		height: 30vw;
+	}
+	h1.heading{
+		font-size: 18vw;
+	}
+	.link-to-the-cat-gallery{
+		height: 50vw;
+	}
+	.about-gallery-img {
+		height: 40vw;
+	}
+	h2.about-gallery {
+		font-size: 7vw;
+	}
+	p.about-gallery {
+		font-size: 4vw;
+		width: 50vw;
+	}
+	p.about-author, p.copyrights {
+		font-size: 3vw;
+	}
+}
+@media all and (min-width: 1300px){
+	.img-wrapper{
+		opacity: 0.8;
+		filter: blur(2px);
+	}
+	.img-wrapper:hover{
+		opacity: 1;
+		filter: hue-rotate(90deg);
+	}
+	.about-gallery-img:hover{
+		filter: brightness(1.5);
+	}
+}
+@media all and (max-width 899px){
+	
+}

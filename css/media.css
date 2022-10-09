@@ -1,0 +1,114 @@
+@media all and (max-width: 768px){
+	.item{
+		max-width: initial;
+		max-height: initial;
+		width: 90vw;
+		height: calc(90vw / 16 * 9);
+	}
+	.img_link{
+		margin: 5px 0;
+	}
+	.grid-item-2, .grid-item-3 {
+		display: none;
+	}
+	.grid-item-1 {
+		padding-top: 2vw;
+		width: 100%;
+	  	justify-content: center;
+	}
+	.logo {
+		font-weight: normal;
+		font-family: plain;
+		font-size: 3vw;
+	}
+	.heading {
+		height: 20vw;
+	}
+	h1.heading {
+		font-size: 15vw;
+	}
+	.link-to-the-bird-gallery {
+		height: 45vw;
+		width: 95%;
+		animation: none;
+	}
+	.grid-item-text {
+		width: 90vw;
+	}
+	.grid-item-text-2 {
+		height: 5vw;
+	}
+	.about-gallery-img {
+		opacity: 0.5;
+		position: absolute;
+		left: 47vw;
+		height: 47vw;
+		animation-name: fly-cat;
+		animation-duration: 9s;
+		animation-iteration-count: infinite;
+		transition: ease-in-out;
+		background-color: rgba(0, 0, 0, 0);
+	}
+	@keyframes fly-cat{
+		0%  {transform: translate(0, -4vw);}
+		10% {transform: translate(0, 1vw);}
+		20% {transform: translate(0, -4vw);}
+		30% {transform: translate(0, 1vw);}
+		40% {transform: translate(0, -4vw);}
+		50% {transform: translate(0, 1vw);}
+		60% {transform: translate(0, -4vw);}
+		70% {transform: translate(0, 1vw);}
+		80% {transform: translate(0, -4vw);}
+		90% {transform: translate(0, 1vw);}
+		100% {transform: translate(0, -4vw);}
+	}
+	h2.about-gallery {
+		font-size: 7vw;
+	}
+	p.about-gallery {
+		width: 50vw;
+		font-size: 4vw;
+	}
+	.footer-grid-item-2 {
+	  	display: none;
+	}
+	.footer-grid-item-1 {
+		width: calc(50% - 1vw);
+	  	margin-right: 0.5vw;
+	  	margin-left: 0.5vw;
+	  	justify-content: right;
+	}
+	.footer-grid-item-3 {
+		width: calc(50% - 1vw);
+	  	margin-right: 0.5vw;
+	  	margin-left: 0.5vw;
+	  	justify-content: left;
+	}
+	p.about-author, p.copyrights {
+		font-size: 2vw;
+	}
+}
+@media all and (max-width: 480px){
+	p.about-author, p.copyrights {
+		font-size: 3vw;
+	}
+}
+@media all and (max-width: 1069px){
+	.item{
+		max-width: 900px;
+		max-height: calc(900px / 16 * 9);
+		width: calc(90vw - 10px);
+		height: calc((90vw - 10px) / 16 * 9);
+	}
+	.img_link{
+		margin: 5px 0;
+	}
+}
+@media all and (min-width: 1200px){
+	.img_link:hover{
+		opacity: 1;
+		transform: scale(1.2) rotate(5deg);
+		z-index: 10;
+		box-shadow: 0 0 200px 30px rgba(0, 90, 0, 0.4);
+	}
+}
