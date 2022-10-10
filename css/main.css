@@ -72,7 +72,7 @@ q::after {
 .logo, .link-to-the-other-gallery{
 	font-weight: bold;
 	color: grey;
-	font-family: plain;
+	font-family: plain, 'Amatic SC', bold;
 	font-size: 2vw;
 }
 .link-to-the-other-gallery:hover{
@@ -220,7 +220,7 @@ p.about-gallery {
   	text-align: center;
 }
 p.about-author, p.copyrights {
-	font-family: plain;
+	font-family: plain, 'Amatic SC', bold;
 	color: black;
 	font-size: 1.5vw;
 }
