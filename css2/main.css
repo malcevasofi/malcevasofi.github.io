@@ -220,7 +220,7 @@ p.about-gallery {
   	text-align: center;
 }
 p.about-author, p.copyrights {
-	font-family: plain;
+	font-family: plain, 'Amatic SC', bold;
 	color: grey;
 	font-size: 1.5vw;
 }
